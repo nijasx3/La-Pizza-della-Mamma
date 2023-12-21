@@ -1,0 +1,150 @@
+/**** Views/base.php ****/
+
+body {
+    background-color: rgb(54, 25, 8);
+    color: white;
+
+}
+
+header {
+    width: 100%;
+    background-image: url(../public/images/header5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 20rem;
+    font-family: 'Mr Dafoe', cursive;
+    color: rgba(252, 251, 251, 0.737);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    margin-top: 2.5%;
+    padding-top: 2.5%;
+    border-top: solid;
+    border-color: #353A40;
+    border-width: 0.01%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer ul {
+    list-style: none;
+    text-align: justify;
+}
+
+
+/****Views/home/index.php****/
+
+h2 {
+
+    margin: 2%;
+}
+
+#presentationhome {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+/****Views/pizza/index.php****/
+
+.presentationcarte h3 {
+    margin: 2%;
+}
+
+.presentationcarte p {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.pizzashow img {
+    width: 80%;
+}
+
+.pizzashow {
+    padding: 2%;
+
+}
+
+#cartepizza {
+
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#cartepizza ul {
+    list-style: none;
+    margin-top: 2%;
+    padding: 0;
+}
+
+
+/****Views/contact/index.php****/
+
+.presentationcontact {
+
+    margin : 2%;
+}
+
+.blockform {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contactinfo {
+
+    text-align: center;
+}
+
+
+.contactinfo iframe{
+
+    margin-top: 5%;
+}
+
+#contactform button{
+    margin-top: 2%;
+}
+
+
+/****Views/panier/index.php****/
+
+#cartpage{
+text-align: center;
+margin : 2%;
+}
+
+/*****Views/client/login.php****/
+
+#linknewaccount a:hover{
+
+    color : #FFCA2C!important;
+}
+
+#linknewaccount {
+    color:white; 
+    text-decoration:dotted;
+}
